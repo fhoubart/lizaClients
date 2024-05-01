@@ -47,4 +47,4 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Push Docker image to Docker Hub
-        run: docker push clientsimg:latest
+        run: docker push mohamedbenmaouche09/clients_repo:latest
