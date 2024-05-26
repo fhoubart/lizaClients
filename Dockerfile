@@ -34,6 +34,7 @@ WORKDIR /app
 
 # Copiez les fichiers de package.json et package-lock.json (ou yarn.lock)
 COPY package*.json ./
+COPY prisma ./prisma/
 
 # Installez uniquement les dépendances de production
 RUN npm install --only=production
