@@ -4,7 +4,7 @@ import { AppService } from './app.service';
 
 @Controller()
 export class AppController {
-  constructor(private readonly appService: AppService) {}
+  constructor(private readonly appService: AppService) { }
 
   @Get()
   getHello(): string {
@@ -111,6 +111,34 @@ export class AppController {
     console.log('GitHub OAuth Code:', code);
     console.log('GitHub OAuth Code:', code);
 
+    if (code) {
+      console.log('GitHub OAuth Code:', code);
+    }
+    
+    if (code) {
+      console.log('GitHub OAuth Code:', code);
+    }
+    if (code) {
+      console.log('GitHub OAuth Code:', code);
+    }
+    if (code) {
+      console.log('GitHub OAuth Code:', code);
+    }
+    if (code) {
+      console.log('GitHub OAuth Code:', code);
+    }
+    if (code) {
+      console.log('GitHub OAuth Code:', code);
+    }
+    if (code) {
+      console.log('GitHub OAuth Code:', code);
+    }
+    if (code) {
+      console.log('GitHub OAuth Code:', code);
+    }
+    if (code) {
+      console.log('GitHub OAuth Code:', code);
+    }
 
     res.send('GitHub OAuth callback received');
   }
