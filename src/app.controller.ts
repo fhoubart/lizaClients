@@ -110,7 +110,11 @@ export class AppController {
     console.log('GitHub OAuth Code:', code);
     console.log('GitHub OAuth Code:', code);
     console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('HEllo', code);
 
+    
     if (code) {
       console.log('GitHub OAuth Code:', code);
     }
