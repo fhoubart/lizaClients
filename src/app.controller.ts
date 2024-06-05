@@ -15,77 +15,105 @@ export class AppController {
   @Get('auth/callback')
   handleGithubCallback(@Query('code') code: string, @Res() res: Response) {
     console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+    console.log('GitHub OAuth Code:', code);
+
 
     res.send('GitHub OAuth callback received');
   }
 
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
-  // add comment to test it in sonar
 }
 
