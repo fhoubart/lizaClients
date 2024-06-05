@@ -14,10 +14,9 @@ export class ClientsController {
 
   @Get()
   findAll() {
-    console.log('ici')
     return this.clientsService.findAll();
   }
-
+  
   @Get(':id')
   findOne(@Param('id') id: string) {
     return this.clientsService.findOne(+id);

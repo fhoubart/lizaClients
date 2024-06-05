@@ -24,7 +24,7 @@ export class ClientsService {
   async update(id: number, updateClientDto: Prisma.ClientUpdateInput): Promise<Client> {
     const existingClient = await this.findOne(id);
     if (!existingClient){
-      throw new NotFoundException (`Team with ID ${id} not found`);
+      throw new NotFoundException (`Client with ID ${id} not found`);
     }
     return this.databaseService.client.update({ where: { id }, data: updateClientDto });
   }
@@ -32,7 +32,7 @@ export class ClientsService {
   async remove(id: number): Promise<Client> {
     const existingClient = await this.findOne(id);
     if (!existingClient){
-    throw new NotFoundException (`Team with ID ${id} not found`);}
+    throw new NotFoundException (`Client with ID ${id} not found`);}
     return this.databaseService.client.delete({ where: { id } });
   }
 }
