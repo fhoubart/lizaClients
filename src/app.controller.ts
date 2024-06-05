@@ -18,5 +18,7 @@ export class AppController {
 
     res.send('GitHub OAuth callback received');
   }
+
+  // add comment to test it in sonar
 }
 
